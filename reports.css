@@ -49,24 +49,27 @@ body {
 }
 
 .stats-section {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(2, auto);   
   gap: 20px;
-  justify-content: space-between;
+  margin-top: 20px;
 }
 
 .stat-card {
-  background-color: #333;
-  color: white;
+  background-color: white;
+  color: black;
   padding: 15px;
-  flex: 1 1 30%;
   border-radius: 6px;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  /* Removed: flex: 1 1 30%; */
 }
 
+
 .stat-card p {
-  margin: 0;
+  background-color: #333;
+  padding: 20px;
   font-size: 0.9em;
   color: #ddd;
 }
