@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reports Dashboard</title>
+    <link rel="stylesheet" href="reports.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="dashboard-container">
+            <div class="heading">
+                <h2 class="dashboard-title">Reports Dashboard</h2>
+            </div>
+            <div class="reportcontainer">
+                <div class="filters-section">
+                    <div class="report-on">
+                        <p><strong>Report On:</strong></p>
+                        <label><input type="checkbox" checked> All Positions</label><br>
+                        <label><input type="checkbox"> Open Positions</label><br>
+                        <label><input type="checkbox"> Filled Positions</label><br>
+                        <label><input type="checkbox"> Closed Positions</label>
+                    </div>
+
+                    <div class="report-for">
+                        <p><strong>Report For:</strong></p>
+                        <label>Company:
+                            <select>
+                                <option>All Companies</option>
+                            </select>
+                        </label><br>
+                        <label>Business Unit:
+                            <select>
+                                <option>All Business Units</option>
+                            </select>
+                        </label><br>
+                        <label>Department:
+                            <select>
+                                <option>All Departments</option>
+                            </select>
+                        </label><br>
+                        <label>Recruiter:
+                            <select>
+                                <option>All Recruiters</option>
+                            </select>
+                        </label><br>
+                        <label>Recruiter's Position:
+                            <select></select>
+                        </label>
+                    </div>
+
+                    <div class="report-dates">
+                        <p><strong>Report From:</strong></p>
+                        <input type="date" value="2012-09-15"><br><br>
+                        <p><strong>Report To:</strong></p>
+                        <input type="date" value="2013-07-10">
+                    </div>
+                </div>
+            </div>
+            <div class="stats-section">
+                <div class="stat-card">
+                    <p>Total Number of Positions</p>
+                    <h3>27</h3>
+                </div>
+                <div class="stat-card">
+                    <p>Total Number of Candidates</p>
+                    <h3>150</h3>
+                </div>
+                <div class="stat-card">
+                    <p>Average Number of Candidates per Position</p>
+                    <h3>4.92</h3>
+                </div>
+                <div class="stat-card">
+                    <p>Total Number of Interviews Conducted</p>
+                    <h3>133</h3>
+                </div>
+                <div class="stat-card">
+                    <p>Average Number of Interviews per Candidate</p>
+                    <h3>3.14</h3>
+                </div>
+                <div class="stat-card">
+                    <p>Average Candidate Rating</p>
+                    <h3>2.35</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
