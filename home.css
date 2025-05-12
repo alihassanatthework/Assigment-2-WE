@@ -1,0 +1,211 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+.top-bar {
+  background-color: #1b1c1d;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons a img {
+  width: 20px;
+  margin-left: 10px;
+}
+
+.navbar {
+  background-color: #005c99;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin-left: 36%;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar ul li a.active {
+  color: orange;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px; 
+}
+
+
+.slider {
+  width: 100%;
+  height: 300px; 
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+}
+
+
+.slides {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+.slide {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 1s ease-in-out; 
+  z-index: 0;
+}
+
+
+@keyframes slideAnimation {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  30% { opacity: 1; }
+  40% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+
+.slide:nth-child(1) {
+  animation: slideAnimation 7s infinite;
+}
+
+.slide:nth-child(2) {
+  animation: slideAnimation 7s infinite 1s; 
+}
+
+.slide:nth-child(3) {
+  animation: slideAnimation 7s infinite 2s; 
+}
+
+.slide:nth-child(4) {
+  animation: slideAnimation 7s infinite 3s; 
+}
+
+.slide:nth-child(5) {
+  animation: slideAnimation 7s infinite 4s; 
+}
+
+.slide:nth-child(6) {
+  animation: slideAnimation 7s infinite 5s; 
+}
+
+.slide:nth-child(7) {
+  animation: slideAnimation 7s infinite 6s; 
+}
+
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /
+}
+
+
+
+.welcome h1 {
+    margin-bottom: 10px;
+}
+
+.para1, .para2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.vision-mission {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.vision-mission .item img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+.divison{
+    border:1px solid grey;
+}
+.bc{
+    background-color: rgba(128, 128, 128, 0.122);
+}
+.services, .values {
+    padding: 30px 0;
+}
+
+.value-items {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.value-items div img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+
+footer {
+  background-color: #005c99; 
+  color: white;
+  padding: 15px;
+}
+
+footer .footer-content {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+}
+
+footer nav {
+  display: flex;
+  justify-content: flex-start; 
+  gap: 15px; 
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
+}
+
+footer nav a:hover {
+  text-decoration: underline; 
+}
+
+footer .social-icons {
+  display: flex;
+  gap: 10px; 
+}
+
+footer .social-icons a {
+  display: inline-block;
+}
+
+footer .rights-reserved {
+  text-align: left; 
+  padding-left: 305px;
+  font-size: 14px;
+  color: white;
+  margin-left: 15px; 
+}
