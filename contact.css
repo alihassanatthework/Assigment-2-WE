@@ -22,7 +22,7 @@
 
 .navbar {
   background-color: #005c99;
-  padding: 10px 20px;
+  padding: 30px 30px;
 }
 
 .navbar ul {
@@ -42,8 +42,73 @@
   color: orange;
 }
 
+.contact-banner {
+    background: linear-gradient(to right, #0e7490, #1e3a8a);
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+}
 
 
+.contact-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 40px;
+}
+
+.gettouch {
+  margin-bottom: 40px;
+}
+.gettouch h2{
+    margin-bottom: 10px;
+}
+
+.contact-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.contact-form,
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #004e7c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.contact-info .map {
+  width:400px;
+  height: 400px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+  .contact-columns {
+    flex-direction: column;
+  }
+}
 
 footer {
   background-color: #005c99;
