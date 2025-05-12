@@ -1,18 +1,23 @@
 * {
   margin: 0;
-  padding: 0;
+  padding:0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
 
+header{
+    background-image: url(images/headerbg.jpg);
+    /* max-height: 300%; */
+}
 
 .top-bar {
-  background-color: #1b1c1d;
+  /* background-color: #1b1c1d; */
   color: white;
-  padding: 10px 20px;
+  padding: 0px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .social-icons a img {
@@ -21,8 +26,9 @@
 }
 
 .navbar {
-  background-color: #005c99;
-  padding: 10px 20px;
+  /* background-color: #005c99;    */
+  padding: 30px 20px;
+  height: 80px;
 }
 
 .navbar ul {
@@ -250,7 +256,8 @@
 
 
 footer {
-  background-color: #005c99;
+  /* background-color: #005c99; */
+  background-image: url(images/footer.jpg);
   color: white;
   padding: 15px;
 }
