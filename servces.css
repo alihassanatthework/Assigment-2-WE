@@ -5,10 +5,11 @@
   font-family: Arial, sans-serif;
 }
 
-header{
-    background-image: url(images/headerbg.jpg);
-    /* max-height: 300%; */
+header {
+  background-image: url(images/headerbg.jpg);
+  /* max-height: 300%; */
 }
+
 .top-bar {
   /* background-color: #1b1c1d; */
   color: white;
@@ -46,6 +47,64 @@ header{
   color: orange;
 }
 
+.services-banner {
+  /* background: linear-gradient(to right, #0e7490, #1e3a8a); */
+  background-image: url(images/bannerBginner.png);
+  color: white;
+  padding: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.services-banner h2{
+  margin-left: 12%;
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.homeorange {
+  color: orange;
+}
+
+.highlight {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  background-color: rgba(0, 102, 255, 0.543);
+  color: #fff;
+  border: 1px solid rgba(0, 102, 255, 0.543);
+  box-shadow: 0 4px 7px rgba(0, 102, 255, 0.543);
+}
+.main,.text-block{
+  overflow: auto;
+}
+.side-image {
+    float: right;
+    margin-left: 10px;  
+}
+.secoundblock {
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start; 
+    margin-top: 20px; 
+}
+.bulletblock{
+  margin-left: 20px;
+}
+
+.contactcard {
+    width: 300px; 
+    padding: 20px;;
+    background-color: #f9f9f9; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    margin-left: 20px; 
+    margin: 0 0 10px; 
+}
 
 
 footer {
